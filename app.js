@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 app.get("/", function (req, res) {
-    res.sendFile(__dirname + "/layout.html");
+    res.sendFile(__dirname + "/views/layout.html");
     app.use(express.static(__dirname + '/public'));
     app.use(express.static(__dirname + '/views'));
 });
