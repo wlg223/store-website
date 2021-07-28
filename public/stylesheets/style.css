@@ -15,6 +15,7 @@
   height:135px;
   display: inline-grid;
   background-color: pink;
+  grid-row-gap: 100px 100px 100px;
   color:#444; 
  
 }
